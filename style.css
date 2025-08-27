@@ -25,7 +25,8 @@ noscript {
 
 body,
 noscript {
-    background-color: var(--color-dark-mode)
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    background-attachment: fixed;
 }
 
 .main,
@@ -177,6 +178,8 @@ html {
 }
 
 .light-mode {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 50%, #667eea 100%) !important;
+    background-attachment: fixed;
     --color-dark-mode: #ece7e1;
     --color-black: #fff;
     --color-white: #000;
